@@ -1,6 +1,6 @@
 {
   "name": "@iterables/zip",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "iterables-zip.js",
   "description": "combine iterables into a list of tuples",
   "scripts": {
