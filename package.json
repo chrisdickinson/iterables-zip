@@ -1,0 +1,32 @@
+{
+  "name": "@iterables/zip",
+  "version": "1.0.1",
+  "main": "iterables-zip.js",
+  "description": "combine iterables into a list of tuples",
+  "scripts": {
+    "update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'",
+    "update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
+    "prerelease": "npm run update-contrib && npm run update-coc",
+    "release": "standard-version",
+    "test": "tap test.js",
+    "posttest": "standard"
+  },
+  "keywords": [],
+  "author": "Chris Dickinson <chris@neversaw.us> (http://neversaw.us/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisdickinson/iterables-zip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chrisdickinson/iterables-zip/issues"
+  },
+  "homepage": "https://github.com/chrisdickinson/iterables-zip#readme",
+  "devDependencies": {
+    "standard": "^10.0.1",
+    "standard-version": "^4.0.0",
+    "tap": "^10.3.1",
+    "weallbehave": "^1.0.3",
+    "weallcontribute": "^1.0.8"
+  }
+}
